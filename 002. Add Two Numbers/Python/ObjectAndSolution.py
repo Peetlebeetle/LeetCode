@@ -6,7 +6,6 @@ class ListNode:
 class Solution:
     def addTwo(self, l1: [ListNode], l2: [ListNode]) -> [ListNode]:
         sum = self.listToInt(l1) + self.listToInt(l2)
-        print("Sum: " + str(sum))
 
         if sum is 0:
             return ListNode(0)
