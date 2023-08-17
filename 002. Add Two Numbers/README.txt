@@ -13,3 +13,20 @@ Output
 
 Explanation
 	342 + 465 = 807
+
+Leetcode fail on tests that exceed Unsigned Long Integer capacity
+	Java and C++
+
+C++
+	Compile and run:
+	>> g++ -c main.cpp -o main.o
+	>> g++ main.o -o main
+	>> main.exe
+
+Java
+	Compile and Run:
+	>> javac *.java
+	>> java Main
+
+Python
+	>> Python Main.py
